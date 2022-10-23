@@ -1,0 +1,6 @@
+from rubiks.cube import Cube
+
+SOLVED_STATE_STRING = "OOOOOOOOOYYYWWWGGGBBBYYYWWWGGGBBBYYYWWWGGGBBBRRRRRRRRR"
+
+if __name__ == '__main__':
+    cube = Cube.Cube(SOLVED_STATE_STRING)
